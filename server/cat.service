@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve cat
+After=network.target
+
+[Service]
+User=slowicki
+Group=www-data
+WorkingDirectory=/home/slowicki/cat
+Environment="PATH=/home/slowicki/cat/catenv/bin"
+ExecStart=/usr/bin/python3 /home/slowicki/cat/cat.py
+
+[Install]
+WantedBy=multi-user.target
