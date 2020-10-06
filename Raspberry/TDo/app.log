@@ -1,0 +1,163 @@
+2020-10-05 23:28:59,989 - Attempting polling connection to http://cat-feder.pl/socket.io/?transport=polling&EIO=3
+2020-10-05 23:29:00,061 - Polling connection accepted with {'pingInterval': 25000, 'pingTimeout': 60000, 'upgrades': ['websocket'], 'sid': 'a00f8ff200d1498f9f39a188ed232286'}
+2020-10-05 23:29:00,062 - Engine.IO connection established
+2020-10-05 23:29:00,062 - Received packet MESSAGE data 0
+2020-10-05 23:29:00,063 - Namespace / is connected
+2020-10-05 23:29:00,063 - Attempting WebSocket upgrade to ws://cat-feder.pl/socket.io/?transport=websocket&EIO=3
+2020-10-05 23:29:00,064 - connection established
+2020-10-05 23:29:00,141 - WebSocket upgrade was successful
+2020-10-05 23:29:00,142 - Sending packet PING data None
+2020-10-05 23:29:00,153 - Received packet NOOP data None
+2020-10-05 23:29:00,156 - Received packet PONG data None
+2020-10-05 23:29:22,908 - Received packet MESSAGE data 2["offlight",[]]
+2020-10-05 23:29:22,910 - Received event "offlight" [/]
+2020-10-05 23:29:22,910 - Light off!
+2020-10-05 23:29:23,763 - Received packet MESSAGE data 2["onlight",[]]
+2020-10-05 23:29:23,765 - Received event "onlight" [/]
+2020-10-05 23:29:23,766 - Light on!
+2020-10-05 23:29:24,983 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:29:24,985 - Received event "engine" [/]
+2020-10-05 23:29:25,143 - Sending packet PING data None
+2020-10-05 23:29:25,159 - Received packet PONG data None
+2020-10-05 23:29:27,955 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:29:27,957 - Received event "engine" [/]
+2020-10-05 23:29:31,359 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:29:31,361 - Received event "engine" [/]
+2020-10-05 23:29:32,068 - Received packet MESSAGE data 2["onlight",[]]
+2020-10-05 23:29:32,070 - Received event "onlight" [/]
+2020-10-05 23:29:32,071 - Light on!
+2020-10-05 23:29:32,707 - Received packet MESSAGE data 2["offlight",[]]
+2020-10-05 23:29:32,709 - Received event "offlight" [/]
+2020-10-05 23:29:32,710 - Light off!
+2020-10-05 23:29:33,381 - Received packet MESSAGE data 2["onlight",[]]
+2020-10-05 23:29:33,382 - Received event "onlight" [/]
+2020-10-05 23:29:33,386 - Light on!
+2020-10-05 23:29:40,716 - The cat was feed!
+2020-10-05 23:29:43,674 - The cat was feed!
+2020-10-05 23:29:47,094 - The cat was feed!
+2020-10-05 23:29:50,145 - Sending packet PING data None
+2020-10-05 23:29:50,197 - Received packet PONG data None
+2020-10-05 23:29:53,086 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:29:53,087 - Received event "engine" [/]
+2020-10-05 23:30:08,778 - The cat was feed!
+2020-10-05 23:30:15,148 - Sending packet PING data None
+2020-10-05 23:30:15,170 - Received packet PONG data None
+2020-10-05 23:30:31,916 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:30:31,918 - Received event "engine" [/]
+2020-10-05 23:30:40,150 - Sending packet PING data None
+2020-10-05 23:30:40,164 - Received packet PONG data None
+2020-10-05 23:30:47,613 - The cat was feed!
+2020-10-05 23:31:05,152 - Sending packet PING data None
+2020-10-05 23:31:05,173 - Received packet PONG data None
+2020-10-05 23:31:30,154 - Sending packet PING data None
+2020-10-05 23:31:30,322 - Received packet PONG data None
+2020-10-05 23:31:34,135 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:31:34,136 - Received event "engine" [/]
+2020-10-05 23:31:49,827 - The cat was feed!
+2020-10-05 23:31:55,156 - Sending packet PING data None
+2020-10-05 23:31:55,169 - Received packet PONG data None
+2020-10-05 23:32:16,668 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:32:16,669 - Received event "engine" [/]
+2020-10-05 23:32:20,157 - Sending packet PING data None
+2020-10-05 23:32:20,173 - Received packet PONG data None
+2020-10-05 23:32:32,416 - The cat was feed!
+2020-10-05 23:32:45,159 - Sending packet PING data None
+2020-10-05 23:32:45,174 - Received packet PONG data None
+2020-10-05 23:33:10,161 - Sending packet PING data None
+2020-10-05 23:33:10,175 - Received packet PONG data None
+2020-10-05 23:33:35,163 - Sending packet PING data None
+2020-10-05 23:33:35,186 - Received packet PONG data None
+2020-10-05 23:34:00,166 - Sending packet PING data None
+2020-10-05 23:34:00,182 - Received packet PONG data None
+2020-10-05 23:34:25,168 - Sending packet PING data None
+2020-10-05 23:34:25,181 - Received packet PONG data None
+2020-10-05 23:34:26,131 - Received packet MESSAGE data 2["offlight",[]]
+2020-10-05 23:34:26,133 - Received event "offlight" [/]
+2020-10-05 23:34:26,134 - Light off!
+2020-10-05 23:34:26,808 - Received packet MESSAGE data 2["onlight",[]]
+2020-10-05 23:34:26,810 - Received event "onlight" [/]
+2020-10-05 23:34:26,810 - Light on!
+2020-10-05 23:34:27,776 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:34:27,777 - Received event "engine" [/]
+2020-10-05 23:34:29,139 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:34:29,141 - Received event "engine" [/]
+2020-10-05 23:34:43,496 - The cat was feed!
+2020-10-05 23:34:44,849 - The cat was feed!
+2020-10-05 23:34:50,170 - Sending packet PING data None
+2020-10-05 23:34:50,186 - Received packet PONG data None
+2020-10-05 23:35:15,172 - Sending packet PING data None
+2020-10-05 23:35:15,185 - Received packet PONG data None
+2020-10-05 23:35:40,174 - Sending packet PING data None
+2020-10-05 23:35:40,213 - Received packet PONG data None
+2020-10-05 23:36:05,176 - Sending packet PING data None
+2020-10-05 23:36:05,190 - Received packet PONG data None
+2020-10-05 23:36:17,912 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:36:17,914 - Received event "engine" [/]
+2020-10-05 23:36:30,178 - Sending packet PING data None
+2020-10-05 23:36:30,209 - Received packet PONG data None
+2020-10-05 23:36:33,613 - The cat was feed!
+2020-10-05 23:36:55,181 - Sending packet PING data None
+2020-10-05 23:36:55,210 - Received packet PONG data None
+2020-10-05 23:36:56,369 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:36:56,371 - Received event "engine" [/]
+2020-10-05 23:37:12,069 - The cat was feed!
+2020-10-05 23:37:20,183 - Sending packet PING data None
+2020-10-05 23:37:20,196 - Received packet PONG data None
+2020-10-05 23:37:45,184 - Sending packet PING data None
+2020-10-05 23:37:45,198 - Received packet PONG data None
+2020-10-05 23:38:10,186 - Sending packet PING data None
+2020-10-05 23:38:10,200 - Received packet PONG data None
+2020-10-05 23:38:34,263 - Received packet MESSAGE data 2["offlight",[]]
+2020-10-05 23:38:34,265 - Received event "offlight" [/]
+2020-10-05 23:38:34,266 - Light off!
+2020-10-05 23:38:34,796 - Received packet MESSAGE data 2["onlight",[]]
+2020-10-05 23:38:34,798 - Received event "onlight" [/]
+2020-10-05 23:38:34,799 - Light on!
+2020-10-05 23:38:35,188 - Sending packet PING data None
+2020-10-05 23:38:35,204 - Received packet PONG data None
+2020-10-05 23:38:35,591 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:38:35,592 - Received event "engine" [/]
+2020-10-05 23:38:39,245 - Received packet MESSAGE data 2["engine",[]]
+2020-10-05 23:38:39,247 - Received event "engine" [/]
+2020-10-05 23:38:51,311 - The cat was feed!
+2020-10-05 23:38:54,951 - The cat was feed!
+2020-10-05 23:39:00,190 - Sending packet PING data None
+2020-10-05 23:39:00,206 - Received packet PONG data None
+2020-10-05 23:39:25,192 - Sending packet PING data None
+2020-10-05 23:39:25,216 - Received packet PONG data None
+2020-10-05 23:39:50,194 - Sending packet PING data None
+2020-10-05 23:39:50,208 - Received packet PONG data None
+2020-10-05 23:40:15,196 - Sending packet PING data None
+2020-10-05 23:40:15,212 - Received packet PONG data None
+2020-10-05 23:40:40,198 - Sending packet PING data None
+2020-10-05 23:40:40,217 - Received packet PONG data None
+2020-10-05 23:41:05,200 - Sending packet PING data None
+2020-10-05 23:41:05,214 - Received packet PONG data None
+2020-10-05 23:41:30,202 - Sending packet PING data None
+2020-10-05 23:41:30,311 - Received packet PONG data None
+2020-10-05 23:41:55,204 - Sending packet PING data None
+2020-10-05 23:41:55,220 - Received packet PONG data None
+2020-10-05 23:42:20,206 - Sending packet PING data None
+2020-10-05 23:42:20,219 - Received packet PONG data None
+2020-10-05 23:42:45,207 - Sending packet PING data None
+2020-10-05 23:42:45,222 - Received packet PONG data None
+2020-10-05 23:43:10,209 - Sending packet PING data None
+2020-10-05 23:43:10,231 - Received packet PONG data None
+2020-10-05 23:43:35,211 - Sending packet PING data None
+2020-10-05 23:43:35,225 - Received packet PONG data None
+2020-10-05 23:44:00,213 - Sending packet PING data None
+2020-10-05 23:44:00,227 - Received packet PONG data None
+2020-10-05 23:44:25,215 - Sending packet PING data None
+2020-10-05 23:44:25,230 - Received packet PONG data None
+2020-10-05 23:44:50,217 - Sending packet PING data None
+2020-10-05 23:44:50,236 - Received packet PONG data None
+2020-10-05 23:45:15,219 - Sending packet PING data None
+2020-10-05 23:45:15,235 - Received packet PONG data None
+2020-10-05 23:45:40,221 - Sending packet PING data None
+2020-10-05 23:45:40,234 - Received packet PONG data None
+2020-10-05 23:46:05,223 - Sending packet PING data None
+2020-10-05 23:46:05,236 - Received packet PONG data None
+2020-10-05 23:46:30,225 - Sending packet PING data None
+2020-10-05 23:46:30,339 - Received packet PONG data None
+2020-10-05 23:46:55,227 - Sending packet PING data None
+2020-10-05 23:46:55,241 - Received packet PONG data None
