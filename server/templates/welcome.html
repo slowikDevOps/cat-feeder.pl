@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Control Panel</h1>
+<br>
+<button type="button" onclick="sendSignal('onlight')" class="btn btn-info">Light</button>
+<button type="button" onclick="sendSignal('offlight')" class="btn btn-dark">Dark</button>
+<button type="button" onclick="sendSignal('engine')" class="btn btn-success">Feed now</button>
+<br><br>
+
+Use button light to switch on light!
+<br>
+Use button dark to switch off light!
+<br>
+Use button feed now to feed Your pet now!
+<br>
+<br><br>
+If you want logout, go on main site!
+<br><br>
+You can clik here <a href="/"><button type="button" class="btn btn-info">Main</button></a></p>
+
+<script>
+    function sendSignal(sig) {
+        fetch('/signal', {
+            method: 'POST',
+            body: JSON.stringify({ sig }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }).then(() => console.log('sent'))
+    }
+</script>
+
+{% endblock %}

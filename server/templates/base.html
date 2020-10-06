@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Catfeder by Slowicki 1.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="/">Catfeder by Slowicki 1.0</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="https://drive.google.com/file/d/1ooHEhSKOAqqIsfp0cJpyUNgfdOxAvDkT/view" target="_blank" >How do it!</a>
+                <a class="nav-item nav-link" href="/about">About me</a>
+                <a class="nav-item nav-link" href="https://github.com/sniezalezny" target="_blank" >Github</a>
+                <a class="nav-item nav-link" href="https://botland.com.pl/pl" target="_blank" class="hiper">Parts, components</a>
+              </div>
+            </div>
+          </nav>
+      <div id="container">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+      </div>
+
+      <div class="container">
+          <!-- child template -->
+      {% block content %}{% endblock %}
+
+      <!-- errors -->
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}</p>
+      {% endif %}
+
+      <!-- messages -->
+      {% for message in get_flashed_messages() %}
+        {{ message }}
+      {% endfor %}
+      </div>
+
+    </div>
+
+  </body>
+</html>
