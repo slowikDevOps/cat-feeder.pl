@@ -50,7 +50,8 @@ def apka():
             flash('Empty textbox, try again!')
         else:
             afterHash = request.form['haslo']
-            flash(bcrypt.generate_password_hash(afterHash))
+            #flash(bcrypt.generate_password_hash(afterHash))
+            flash(request.form['type'])
 
     return render_template('apka.html')
 @app.route('/signal', methods=['POST'])
