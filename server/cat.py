@@ -3,12 +3,14 @@
 
 from flask import Flask, render_template, redirect, url_for, request, session, flash
 from functools import wraps
-
 from flask_socketio import SocketIO, emit
+from flask_bcrypt import Bcrypt
+from flask_hashing import Hashing
 
 app = Flask(__name__)
+bcrypt = Bcrypt()
+hashing = Hashing(app)
 app.secret_key = "my precious"
-
 socketio = SocketIO(app)
 
 def login_required(f):
@@ -40,7 +42,17 @@ def how():
 def about():
     return render_template('aboutme.html')
 
+@app.route('/apka', methods=['GET', 'POST'])
+def apka():
+    afterHash = None
+    if request.method == 'POST':
+        if  request.form['haslo'] == '':
+            flash('Empty textbox, try again!')
+        else:
+            afterHash = request.form['haslo']
+            flash(bcrypt.generate_password_hash(afterHash))
 
+    return render_template('apka.html')
 @app.route('/signal', methods=['POST'])
 def signal():
     socketio.emit(request.json['sig'], [], broadcast=True)
