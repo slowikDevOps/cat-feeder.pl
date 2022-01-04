@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Pass encryption!</h1>
+Project on my studies.
+<br></br>
+<form action="" method="post">
+
+
+<input type="text" placeholder="Put password" name="haslo" value="{{request.form.szyfrowanie }}">
+
+<input class="btn btn-warning" type="submit" value="bcrypt">
+
+{% endblock %}
