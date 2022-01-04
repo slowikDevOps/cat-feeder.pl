@@ -11,13 +11,17 @@ Project on my studies.
 
 
 <select class="form-select" aria-label="Default select example" name="type">
-  <option selected>Open this select menu</option>
-  <option value="bcrypt">One</option>
-  <option value="md5">Two</option>
-  <option value="3">Three</option>
+  <option selected>Choose a type hashing</option>
+  <option value="bcrypt">bcrypt</option>
+  <option value="flask">hash-flask</option>
+  <option value="sha512">sha512</option>
+  <option value="sha256">sha256</option>
+  <option value="md5">md5</option>
+  <option value="sha1">sha1</option>
+  <option value="sha384">sha384</option>
 </select>
 
 
-<input class="btn btn-warning" type="submit" value="bcrypt">
+<input class="btn btn-warning" type="submit" value="hash!">
 
 {% endblock %}
