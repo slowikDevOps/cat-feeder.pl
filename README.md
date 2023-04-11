@@ -1,13 +1,13 @@
-# cat-feder.pl
+# cat-feeder.pl
 This is my work Engineering, cat/pet feeder. I use Flask and Raspberry Pi3+, and websocket to comunication.
 
-http://cat-feder.pl/
+https://cat-feeder.pl/
 
 Link to film with cat feeder.
 https://www.youtube.com/watch?v=vUm5C1HVf3c&t=1s
 
 
-credential to login:
+credentials to login:
 
 login: admin
 password: admin
